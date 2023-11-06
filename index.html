@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div class="container">
+    <main class="container">
         <h1 class="heading">Cash Register Manager</h1>
         <p class="discription">Enter the bill amount and cash given by the customer and know minimun number of notes to return!</p>
         <label class="billAmount" for="bill_amount"><b>Bill Amount:</b></label>
@@ -20,16 +20,16 @@
             <caption><b>Return Change</b></caption>
             <tr>
                 <th>No. of Notes</th>
-                <td class="no_of_notes"></td>
-                <td class="no_of_notes"></td>
-                <td class="no_of_notes"></td>
-                <td class="no_of_notes"></td>
-                <td class="no_of_notes"></td>
-                <td class="no_of_notes"></td>
-                <td class="no_of_notes"></td>
-                <td class="no_of_notes"></td>
-                <td class="no_of_notes"></td>
-                <td class="no_of_notes"></td>
+                <td class="no_of_notes">0</td>
+                <td class="no_of_notes">0</td>
+                <td class="no_of_notes">0</td>
+                <td class="no_of_notes">0</td>
+                <td class="no_of_notes">0</td>
+                <td class="no_of_notes">0</td>
+                <td class="no_of_notes">0</td>
+                <td class="no_of_notes">0</td>
+                <td class="no_of_notes">0</td>
+                <td class="no_of_notes">0</td>
             </tr>
             <tr>
                 <th>Notes</th>
@@ -45,7 +45,47 @@
                 <td>01</td>
             </tr>
         </table>
-    </div>
+
+        <div class="discription">
+            <h3>About the project</h3>
+            <p align="justify" style="font-size: small;">
+            This Cash Register Manager application helps with the bill and 
+            cash management system. It enables a user to input a bill amount 
+            and cash given, then calculates the change to be returned or 
+            notifies if the Input is valid or not. It also displays error 
+            messages and presents the quantity of specific denominations of 
+            the change to be returned using the available Indian currency 
+            notes (2000, 500, 200, 100, 50, 20, 10, 5, 2, 1).
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <ul class="footer-list">
+          <li>
+            <a class="links" href="https://github.com/Dhee1406/" target="_blank">
+              <img src="images/github.svg" alt="github" />
+            </a>
+          </li>
+          <li>
+            <a class="links" href="#" target="_blank">
+              <img src="images/discord.svg" alt="discord" />
+            </a>
+          </li>
+          <li>
+            <a class="links" href="#" target="_blank">
+              <img src="images/twitter.svg" alt="twitter" />
+            </a>
+          </li>
+          <li>
+            <a class="links" href="https://www.instagram.com" target="_blank">
+              <img src="images/instagram.svg" alt="instagram" />
+            </a>
+          </li>
+        </ul>
+        <p>© | 2023 | dheeraj</p>
+
+      </footer>    
     <script src="index.js"></script>
 </body>
 </html>
