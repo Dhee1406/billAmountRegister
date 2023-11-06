@@ -11,19 +11,19 @@
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    width: 50vw;
     background-color: rgba(238, 226, 114, 0.571);
     padding: 2rem;
-    height: 100;
+    height: 40;
     border-radius: 5%;
 }
 
-h1, p {
+h1, p, h3 {
     padding: 0.5rem;
 }
 
 label {
-    padding-top: 0.5rem;
+    padding-top: 0.7rem;
 }
 
 body {
@@ -34,11 +34,13 @@ body {
 
 input {
     background-color: rgb(240, 240, 195);
-    padding: 0.1rem;
+    padding: 0.2rem;
 }
 
 #check_btn {
     margin: 1rem;
+    padding: 0.2rem;
+    padding-bottom: ;
     background-color: rgba(238, 226, 114, 0.571);
 }
 
@@ -59,3 +61,31 @@ table, th, td {
 th, td {
     background-color: #caaf00;
 }
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  footer p {
+    font-size: small;
+    text-align: right;
+  }
+  
+  .footer-list {
+    margin: 1rem;
+  }
+  
+  a,
+  img,
+  li {
+    text-align: right;
+  }
+  
+  img {
+    width: 40px;
+    padding: 0.1rem;
+  }
